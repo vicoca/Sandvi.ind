@@ -1,0 +1,140 @@
+.fondogris{
+	background:#60693F;
+}
+.fondorosa{
+	background: #EFD2B3;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.bordes{
+	border: 3px solid white;
+}
+
+.fondotexto{
+	background-color: beige;
+	opacity: 0.8;
+	margin: 50px 15% ;
+	padding: 10px 10px 10px 10px;
+	height: 100%;
+	width: 70%;
+}
+
+.centrartexto{
+	text-align: center;
+}
+
+.logotipo{
+	margin: 10px 10px ;
+}
+
+ h1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 100;
+   color: white;
+   text-align:center;
+   background:#EFD2B3;
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+nav{
+	display: flex;
+	flex-direction: row ;
+	align-items: center;
+	justify-content: space-around;
+	background: #60693F;
+	padding: 10px;
+
+}
+
+nav a {
+	color: #60693F;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+
+}
+
+
+
+.grid {
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr ;
+   grid-column-gap: 5px;
+   grid-row-gap: 5px;
+   
+}
+
+section div {
+   border: 1px solid black;
+   background-color: beige;
+}
+
+
+header {
+	background-color: #60693F;
+    position: sticky;
+    top: 0px;
+    left: 100%;
+}
+
+main {
+ 	animation-duration: 2s;
+ 	animation-name: aparecer;
+ }
+
+
+ div.gallery {
+  margin: 5px;
+  border: 1px solid #EFD2B3;
+  float: left;
+  width: 400px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+   animation-duration: 2s;
+   animation-name: aparecer;
+}
+
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+section {
+  padding: 70px;
+
+}
+
+
+
